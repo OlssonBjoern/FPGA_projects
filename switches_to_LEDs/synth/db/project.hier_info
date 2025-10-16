@@ -1,0 +1,11 @@
+|switches_to_LEDs
+i_switch[0] => o_LED[0].DATAIN
+i_switch[1] => o_LED[1].DATAIN
+i_switch[2] => o_LED[2].DATAIN
+i_switch[3] => o_LED[3].DATAIN
+o_LED[0] << i_switch[0].DB_MAX_OUTPUT_PORT_TYPE
+o_LED[1] << i_switch[1].DB_MAX_OUTPUT_PORT_TYPE
+o_LED[2] << i_switch[2].DB_MAX_OUTPUT_PORT_TYPE
+o_LED[3] << i_switch[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
