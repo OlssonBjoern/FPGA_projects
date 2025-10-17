@@ -1,0 +1,77 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+R0
+R1
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 d/home/linuxdev/FPGA_projects/mux_to_LEDs/sim
+T_opt
+!s110 1760707653
+VAWYi0_1]kEZ0I`6@b[NQL1
+04 14 4 work tb_mux_to_LEDs fast 0
+=1-000ae431a4f1-68f24445-1569b-120bb
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U2 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+vmux_to_LEDs
+2/home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/mux_to_LEDs.v
+!s110 1760707639
+!i10b 1
+!s100 @5@eDF6mcT3DDL?@>71e61
+IVZ1jDXJUbbd0mViJ@;1VT2
+R2
+w1760707586
+8/home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/mux_to_LEDs.v
+F/home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/mux_to_LEDs.v
+!i122 1
+L0 1 17
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z6 !s108 1760707639.000000
+!s107 /home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/mux_to_LEDs.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/mux_to_LEDs.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+nmux_to_@l@e@ds
+vtb_mux_to_LEDs
+2/home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/tb_mux_to_LEDs.v
+!s110 1760707640
+!i10b 1
+!s100 0804TJS`<hlaJ7BfFYi3k2
+I^1]l@:OkYHDO5lmWB:41:0
+R2
+w1760707585
+8/home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/tb_mux_to_LEDs.v
+F/home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/tb_mux_to_LEDs.v
+!i122 2
+L0 2 32
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/tb_mux_to_LEDs.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/linuxdev/FPGA_projects/mux_to_LEDs/rtl/tb_mux_to_LEDs.v|
+!i113 0
+R7
+R3
+ntb_mux_to_@l@e@ds

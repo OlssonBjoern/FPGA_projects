@@ -1,0 +1,19 @@
+|mux_to_LEDs
+i_a[0] => o_y.DATAA
+i_a[1] => o_y.DATAA
+i_a[2] => o_y.DATAA
+i_a[3] => o_y.DATAA
+i_b[0] => o_y.DATAB
+i_b[1] => o_y.DATAB
+i_b[2] => o_y.DATAB
+i_b[3] => o_y.DATAB
+i_sel => o_y.OUTPUTSELECT
+i_sel => o_y.OUTPUTSELECT
+i_sel => o_y.OUTPUTSELECT
+i_sel => o_y.OUTPUTSELECT
+o_y[0] << o_y.DB_MAX_OUTPUT_PORT_TYPE
+o_y[1] << o_y.DB_MAX_OUTPUT_PORT_TYPE
+o_y[2] << o_y.DB_MAX_OUTPUT_PORT_TYPE
+o_y[3] << o_y.DB_MAX_OUTPUT_PORT_TYPE
+
+
