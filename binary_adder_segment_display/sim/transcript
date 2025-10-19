@@ -1,0 +1,130 @@
+vsim -gui work.tb_adder_nbit
+# vsim -gui work.tb_adder_nbit 
+# Start time: 21:47:51 on Oct 19,2025
+# Loading work.tb_adder_nbit
+# Loading work.adder_nbit
+add wave -position end  sim:/tb_adder_nbit/a
+add wave -position end  sim:/tb_adder_nbit/b
+add wave -position end  sim:/tb_adder_nbit/sum
+run -all
+#                    0 a =    x, b =    x, sum =    x
+#                    1 a =    0, b =    0, sum =    0
+#                    3 a =    1, b =   99, sum =  100
+#                    4 a =   33, b =   66, sum =   99
+#                    5 a =  100, b =   47, sum =  147
+# ** Note: $stop    : C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit.v(26)
+#    Time: 6 us  Iteration: 0  Instance: /tb_adder_nbit
+# Break in Module tb_adder_nbit at C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit.v line 26
+# Break key hit
+quit -sim
+# End time: 21:49:52 on Oct 19,2025, Elapsed time: 0:02:01
+# Errors: 0, Warnings: 1
+vsim -gui work.adder_nbit_top
+# vsim -gui work.adder_nbit_top 
+# Start time: 21:50:08 on Oct 19,2025
+# Loading work.adder_nbit_top
+# Loading work.adder_nbit
+# Loading work.hex_7seg_decoder
+add wave -position end  sim:/adder_nbit_top/i_a
+add wave -position end  sim:/adder_nbit_top/i_b
+add wave -position end  sim:/adder_nbit_top/o_sum
+add wave -position end  sim:/adder_nbit_top/o_HEX
+run -all
+quit -sim
+# End time: 21:50:42 on Oct 19,2025, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 1
+vsim -gui work.tb_adder_nbit_top
+# vsim -gui work.tb_adder_nbit_top 
+# Start time: 21:50:58 on Oct 19,2025
+# Loading work.tb_adder_nbit_top
+# Loading work.adder_nbit_top
+# Loading work.adder_nbit
+# Loading work.hex_7seg_decoder
+add wave -position end  sim:/tb_adder_nbit_top/N
+add wave -position end  sim:/tb_adder_nbit_top/i_a
+add wave -position end  sim:/tb_adder_nbit_top/i_b
+add wave -position end  sim:/tb_adder_nbit_top/o_sum
+add wave -position end  sim:/tb_adder_nbit_top/o_HEX
+add wave -position end  sim:/tb_adder_nbit_top/i
+add wave -position end  sim:/tb_adder_nbit_top/j
+add wave -position end  sim:/tb_adder_nbit_top/ADD_TOP0/ADD0/N
+add wave -position end  sim:/tb_adder_nbit_top/ADD_TOP0/ADD0/a
+add wave -position end  sim:/tb_adder_nbit_top/ADD_TOP0/ADD0/b
+add wave -position end  sim:/tb_adder_nbit_top/ADD_TOP0/ADD0/sum
+add wave -position end  sim:/tb_adder_nbit_top/ADD_TOP0/N
+add wave -position end  sim:/tb_adder_nbit_top/ADD_TOP0/i_a
+add wave -position end  sim:/tb_adder_nbit_top/ADD_TOP0/i_b
+add wave -position end  sim:/tb_adder_nbit_top/ADD_TOP0/o_sum
+add wave -position end  sim:/tb_adder_nbit_top/ADD_TOP0/o_HEX
+run -all
+#                    0 i_a = x, i_b = x, o_sum =  x
+#                    1 i_a = 0, i_b = 0, o_sum =  0
+#                    3 i_a = 0, i_b = 1, o_sum =  1
+#                    4 i_a = 0, i_b = 2, o_sum =  2
+#                    5 i_a = 0, i_b = 3, o_sum =  3
+#                    6 i_a = 0, i_b = 4, o_sum =  4
+#                    7 i_a = 0, i_b = 5, o_sum =  5
+#                    8 i_a = 0, i_b = 6, o_sum =  6
+#                    9 i_a = 0, i_b = 7, o_sum =  7
+#                   10 i_a = 1, i_b = 0, o_sum =  1
+#                   11 i_a = 1, i_b = 1, o_sum =  2
+#                   12 i_a = 1, i_b = 2, o_sum =  3
+#                   13 i_a = 1, i_b = 3, o_sum =  4
+#                   14 i_a = 1, i_b = 4, o_sum =  5
+#                   15 i_a = 1, i_b = 5, o_sum =  6
+#                   16 i_a = 1, i_b = 6, o_sum =  7
+#                   17 i_a = 1, i_b = 7, o_sum =  8
+#                   18 i_a = 2, i_b = 0, o_sum =  2
+#                   19 i_a = 2, i_b = 1, o_sum =  3
+#                   20 i_a = 2, i_b = 2, o_sum =  4
+#                   21 i_a = 2, i_b = 3, o_sum =  5
+#                   22 i_a = 2, i_b = 4, o_sum =  6
+#                   23 i_a = 2, i_b = 5, o_sum =  7
+#                   24 i_a = 2, i_b = 6, o_sum =  8
+#                   25 i_a = 2, i_b = 7, o_sum =  9
+#                   26 i_a = 3, i_b = 0, o_sum =  3
+#                   27 i_a = 3, i_b = 1, o_sum =  4
+#                   28 i_a = 3, i_b = 2, o_sum =  5
+#                   29 i_a = 3, i_b = 3, o_sum =  6
+#                   30 i_a = 3, i_b = 4, o_sum =  7
+#                   31 i_a = 3, i_b = 5, o_sum =  8
+#                   32 i_a = 3, i_b = 6, o_sum =  9
+#                   33 i_a = 3, i_b = 7, o_sum = 10
+#                   34 i_a = 4, i_b = 0, o_sum =  4
+#                   35 i_a = 4, i_b = 1, o_sum =  5
+#                   36 i_a = 4, i_b = 2, o_sum =  6
+#                   37 i_a = 4, i_b = 3, o_sum =  7
+#                   38 i_a = 4, i_b = 4, o_sum =  8
+#                   39 i_a = 4, i_b = 5, o_sum =  9
+#                   40 i_a = 4, i_b = 6, o_sum = 10
+#                   41 i_a = 4, i_b = 7, o_sum = 11
+#                   42 i_a = 5, i_b = 0, o_sum =  5
+#                   43 i_a = 5, i_b = 1, o_sum =  6
+#                   44 i_a = 5, i_b = 2, o_sum =  7
+#                   45 i_a = 5, i_b = 3, o_sum =  8
+#                   46 i_a = 5, i_b = 4, o_sum =  9
+#                   47 i_a = 5, i_b = 5, o_sum = 10
+#                   48 i_a = 5, i_b = 6, o_sum = 11
+#                   49 i_a = 5, i_b = 7, o_sum = 12
+#                   50 i_a = 6, i_b = 0, o_sum =  6
+#                   51 i_a = 6, i_b = 1, o_sum =  7
+#                   52 i_a = 6, i_b = 2, o_sum =  8
+#                   53 i_a = 6, i_b = 3, o_sum =  9
+#                   54 i_a = 6, i_b = 4, o_sum = 10
+#                   55 i_a = 6, i_b = 5, o_sum = 11
+#                   56 i_a = 6, i_b = 6, o_sum = 12
+#                   57 i_a = 6, i_b = 7, o_sum = 13
+#                   58 i_a = 7, i_b = 0, o_sum =  7
+#                   59 i_a = 7, i_b = 1, o_sum =  8
+#                   60 i_a = 7, i_b = 2, o_sum =  9
+#                   61 i_a = 7, i_b = 3, o_sum = 10
+#                   62 i_a = 7, i_b = 4, o_sum = 11
+#                   63 i_a = 7, i_b = 5, o_sum = 12
+#                   64 i_a = 7, i_b = 6, o_sum = 13
+#                   65 i_a = 7, i_b = 7, o_sum = 14
+# ** Note: $stop    : C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit_top.v(31)
+#    Time: 66 us  Iteration: 0  Instance: /tb_adder_nbit_top
+# Break in Module tb_adder_nbit_top at C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit_top.v line 31
+quit -sim
+# End time: 21:54:12 on Oct 19,2025, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 1

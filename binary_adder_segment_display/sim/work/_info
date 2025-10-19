@@ -1,0 +1,149 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/FPGA_projects/binary_adder_segment_display/sim
+vadder_nbit
+Z1 !s110 1760827045
+!i10b 1
+!s100 d0=<hZcEo]U=>PbHn2TZn1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPA>fHznJP70FE>Ko_=F?j2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1760826463
+8C:/FPGA_projects/binary_adder_segment_display/rtl/adder_nbit.v
+FC:/FPGA_projects/binary_adder_segment_display/rtl/adder_nbit.v
+!i122 20
+L0 1 19
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1760827045.000000
+!s107 C:/FPGA_projects/binary_adder_segment_display/rtl/adder_nbit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/binary_adder_segment_display/rtl/adder_nbit.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vadder_nbit_top
+R1
+!i10b 1
+!s100 G2?4lAEXbLE1gkcgCF6Ya2
+R2
+I1Kfg5C6=I0hA[^RW56`9m3
+R3
+R0
+w1760826732
+8C:/FPGA_projects/binary_adder_segment_display/rtl/adder_nbit_top.v
+FC:/FPGA_projects/binary_adder_segment_display/rtl/adder_nbit_top.v
+!i122 21
+L0 1 35
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/FPGA_projects/binary_adder_segment_display/rtl/adder_nbit_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/binary_adder_segment_display/rtl/adder_nbit_top.v|
+!i113 1
+R6
+R7
+vhex_7seg_decoder
+R1
+!i10b 1
+!s100 JV_Y_cT7z6;N[_d`b29e62
+R2
+IeKAQi]9VnRj?jP?WT@P473
+R3
+R0
+w1760826848
+8C:/FPGA_projects/binary_adder_segment_display/rtl/hex_7seg_decoder.v
+FC:/FPGA_projects/binary_adder_segment_display/rtl/hex_7seg_decoder.v
+!i122 22
+L0 1 46
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/FPGA_projects/binary_adder_segment_display/rtl/hex_7seg_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/binary_adder_segment_display/rtl/hex_7seg_decoder.v|
+!i113 1
+R6
+R7
+vtb_adder_nbit
+R1
+!i10b 1
+!s100 hPN@9DaIn`m:bnXXeXkCk0
+R2
+I2ke5M[fjLU=e3d1]]4m400
+R3
+R0
+w1760826932
+8C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit.v
+FC:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit.v
+!i122 23
+Z8 L0 2 28
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit.v|
+!i113 1
+R6
+R7
+vtb_adder_nbit_top
+R1
+!i10b 1
+!s100 o<i9]c7i0A`aA9IF15@070
+R2
+I5TKlSSOKN[PHb[@FJ1AzK2
+R3
+R0
+w1760827041
+8C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit_top.v
+FC:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit_top.v
+!i122 24
+L0 2 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit_top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/binary_adder_segment_display/rtl/tb_adder_nbit_top.v|
+!i113 1
+R6
+R7
+vtb_hex_7seg_decoder
+R1
+!i10b 1
+!s100 g8b2M04_^alnR07GZIE4>0
+R2
+I0:Nm>U?YenzSJZdeY2=1i2
+R3
+R0
+w1760826965
+8C:/FPGA_projects/binary_adder_segment_display/rtl/tb_hex_7seg_decoder.v
+FC:/FPGA_projects/binary_adder_segment_display/rtl/tb_hex_7seg_decoder.v
+!i122 25
+R8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/FPGA_projects/binary_adder_segment_display/rtl/tb_hex_7seg_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/binary_adder_segment_display/rtl/tb_hex_7seg_decoder.v|
+!i113 1
+R6
+R7

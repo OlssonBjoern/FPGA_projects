@@ -10,7 +10,7 @@ module hex_7seg_decoder
         output o_d,
         output o_e,
         output o_f,
-        output o_g,
+        output o_g
     );
     
     //Internal logic
@@ -36,11 +36,11 @@ module hex_7seg_decoder
             4'd13 : {a, b, c, d, e, f, g} = 7'b0111101 ;
             4'd14 : {a, b, c, d, e, f, g} = 7'b1001111 ;
             4'd15 : {a, b, c, d, e, f, g} = 7'b1000111 ;
-            default: {a, b, c, d, e, f, g} = 7'1111110; // Best practice to avoid latch creation during synthesis
+            default: {a, b, c, d, e, f, g} = 7'b1111110; // Best practice to avoid latch creation during synthesis
         endcase
     end
 
-    assign = {o_a, o_b, o_c, o_d, o_e, o_f, o_g} COMMON_ANODE_CATHODE ? {a, b, c, d, e, f, g} : ~ {a, b, c, d, e, f, g};
+    assign {o_a, o_b, o_c, o_d, o_e, o_f, o_g} = COMMON_ANODE_CATHODE ? {a, b, c, d, e, f, g} : ~ {a, b, c, d, e, f, g};
 
 
 endmodule

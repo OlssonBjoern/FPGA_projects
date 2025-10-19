@@ -15,7 +15,7 @@ module tb_hex_7seg_decoder();
         .o_d(d),
         .o_e(e),
         .o_f(f),
-        o_g(g)
+        .o_g(g)
     );
 
     initial begin

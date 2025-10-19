@@ -2,11 +2,11 @@
 module tb_adder_nbit_top();
 
 
-    localparam  = 3;
+    localparam N = 3;
     reg [N-1:0] i_a;
     reg [N-1:0] i_b;
     wire [N:0]  o_sum;
-    wire [6_0] o_HEX;
+    wire [6:0] o_HEX;
 
     integer i, j;
 

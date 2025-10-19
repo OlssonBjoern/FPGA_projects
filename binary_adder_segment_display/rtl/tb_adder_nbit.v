@@ -8,7 +8,7 @@ module tb_adder_nbit();
 
     // Instantiate the parameterized DUT with with bigger than 10
     adder_nbit
-    #(N.(ADDER_WIDTH))
+    #(.N(ADDER_WIDTH))
     ADDER1
     (
         .a(a),
@@ -22,7 +22,7 @@ module tb_adder_nbit();
             #1; a = 0; b = 0;
             #2; a = 1; b = 99;
             #1; a = 33; b = 66;
-            #1: a = 100; b = 47:
+            #1; a = 100; b = 47;
             #1; $stop;
     end    
 

@@ -29,7 +29,7 @@ module adder_nbit_top
         .o_d(o_HEX[3]),
         .o_e(o_HEX[4]),
         .o_f(o_HEX[5]),
-        .o_g(o_HEX[6]),
+        .o_g(o_HEX[6])
     );
 
 endmodule
