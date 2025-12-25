@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/FPGA_projects/binary_adder_segment_display/sim
+vand2
+Z0 !s110 1766263046
+!i10b 1
+!s100 2Sg@Hk?HGjA[AM;5j@TVK3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISHPQjmV5UACUMJZ=Je_3:1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/FPGA_projects/Mips32bit
+w1766248066
+8C:/FPGA_projects/Mips32bit/and2.v
+FC:/FPGA_projects/Mips32bit/and2.v
+!i122 41
+Z4 L0 1 9
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1766263046.000000
+!s107 C:/FPGA_projects/Mips32bit/and2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/Mips32bit/and2.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vor2
+Z9 !s110 1766263047
+!i10b 1
+!s100 ^5HG8TD79NRl;05hNB?ez3
+R1
+IL[g]<H_@:^^9nSGL7PSJo2
+R2
+R3
+w1766248085
+8C:/FPGA_projects/Mips32bit/or2.v
+FC:/FPGA_projects/Mips32bit/or2.v
+!i122 43
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/FPGA_projects/Mips32bit/or2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/Mips32bit/or2.v|
+!i113 1
+R7
+R8
+vsinglebit_full_adder
+R9
+!i10b 1
+!s100 `F9j8>F[1h82TBJ2<ReX10
+R1
+IWladFe3Bh2b3Vk;R03N`M1
+R2
+R3
+w1766262846
+8C:/FPGA_projects/Mips32bit/singlebit_fulladder.v
+FC:/FPGA_projects/Mips32bit/singlebit_fulladder.v
+!i122 44
+L0 1 24
+R5
+r1
+!s85 0
+31
+!s108 1766263047.000000
+!s107 C:/FPGA_projects/Mips32bit/singlebit_fulladder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/Mips32bit/singlebit_fulladder.v|
+!i113 1
+R7
+R8
+vxor2
+R0
+!i10b 1
+!s100 TE>8_CRl4]H?6z0h:d>^F0
+R1
+IedLb80oRbY=b>64=GFcol2
+R2
+R3
+w1766248397
+8C:/FPGA_projects/Mips32bit/xor2.v
+FC:/FPGA_projects/Mips32bit/xor2.v
+!i122 42
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/FPGA_projects/Mips32bit/xor2.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/Mips32bit/xor2.v|
+!i113 1
+R7
+R8
