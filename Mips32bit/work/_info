@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/FPGA_projects/binary_adder_segment_display/sim
 vand2
-Z0 !s110 1766263046
+Z0 !s110 1767044686
 !i10b 1
 !s100 2Sg@Hk?HGjA[AM;5j@TVK3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,20 +20,20 @@ Z3 dC:/FPGA_projects/Mips32bit
 w1766248066
 8C:/FPGA_projects/Mips32bit/and2.v
 FC:/FPGA_projects/Mips32bit/and2.v
-!i122 41
+!i122 110
 Z4 L0 1 9
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1766263046.000000
+Z6 !s108 1767044686.000000
 !s107 C:/FPGA_projects/Mips32bit/and2.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/Mips32bit/and2.v|
 !i113 1
 Z7 o-work work
 Z8 tCvgOpt 0
 vor2
-Z9 !s110 1766263047
+R0
 !i10b 1
 !s100 ^5HG8TD79NRl;05hNB?ez3
 R1
@@ -43,7 +43,7 @@ R3
 w1766248085
 8C:/FPGA_projects/Mips32bit/or2.v
 FC:/FPGA_projects/Mips32bit/or2.v
-!i122 43
+!i122 112
 R4
 R5
 r1
@@ -55,8 +55,31 @@ R6
 !i113 1
 R7
 R8
+vrca_alu
+R0
+!i10b 1
+!s100 2m6Hl<mWSP7V=8Xkn3:4m0
+R1
+IkoR[6MmO2?YmGXd8AZ7NU3
+R2
+R3
+w1766873132
+8C:/FPGA_projects/Mips32bit/rca_alu.v
+FC:/FPGA_projects/Mips32bit/rca_alu.v
+!i122 115
+L0 1 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/FPGA_projects/Mips32bit/rca_alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/Mips32bit/rca_alu.v|
+!i113 1
+R7
+R8
 vsinglebit_full_adder
-R9
+R0
 !i10b 1
 !s100 `F9j8>F[1h82TBJ2<ReX10
 R1
@@ -66,15 +89,38 @@ R3
 w1766262846
 8C:/FPGA_projects/Mips32bit/singlebit_fulladder.v
 FC:/FPGA_projects/Mips32bit/singlebit_fulladder.v
-!i122 44
+!i122 113
 L0 1 24
 R5
 r1
 !s85 0
 31
-!s108 1766263047.000000
+R6
 !s107 C:/FPGA_projects/Mips32bit/singlebit_fulladder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/Mips32bit/singlebit_fulladder.v|
+!i113 1
+R7
+R8
+vtb_fulladder
+R0
+!i10b 1
+!s100 _DFW<TDfU:AhnFl=A75:D0
+R1
+IFdVmT2^Ug>M2?UbETzQod2
+R2
+R3
+w1767044679
+8C:/FPGA_projects/Mips32bit/tb_fulladder.v
+FC:/FPGA_projects/Mips32bit/tb_fulladder.v
+!i122 114
+L0 3 55
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/FPGA_projects/Mips32bit/tb_fulladder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/FPGA_projects/Mips32bit/tb_fulladder.v|
 !i113 1
 R7
 R8
@@ -89,7 +135,7 @@ R3
 w1766248397
 8C:/FPGA_projects/Mips32bit/xor2.v
 FC:/FPGA_projects/Mips32bit/xor2.v
-!i122 42
+!i122 111
 R4
 R5
 r1

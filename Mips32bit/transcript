@@ -1,0 +1,34 @@
+vsim -gui work.tb_fulladder
+# vsim -gui work.tb_fulladder 
+# Start time: 22:32:43 on Dec 29,2025
+# Loading work.tb_fulladder
+# Loading work.singlebit_full_adder
+# Loading work.xor2
+# Loading work.and2
+# Loading work.or2
+add wave -position end  sim:/tb_fulladder/a
+add wave -position end  sim:/tb_fulladder/b
+add wave -position end  sim:/tb_fulladder/cin
+add wave -position end  sim:/tb_fulladder/sum
+add wave -position end  sim:/tb_fulladder/cout
+run
+# ** Note: $finish    : C:/FPGA_projects/Mips32bit/tb_fulladder.v(35)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fulladder
+# 1
+# Break in Module tb_fulladder at C:/FPGA_projects/Mips32bit/tb_fulladder.v line 35
+run -all
+run -all
+run -all
+run -all
+run -all
+add wave *
+# Break key hit
+restart
+run -all
+# GetModuleFileName: Det går inte att hitta den angivna modulen.
+# 
+# 
+# ** Note: $finish    : C:/FPGA_projects/Mips32bit/tb_fulladder.v(35)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fulladder
+# End time: 22:34:58 on Dec 29,2025, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 0

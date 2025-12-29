@@ -23,7 +23,7 @@ initial begin
 
 	//Apply inputs as concatenated vector
 
-	{a, b, cin} = 3'b000; #10; // Adding delay between inputs
+	{a, b, cin} = 3'b000; #10;
 	$display("a=%b b=%b cin=%b sum=%b cout=%b", a,b,cin,sum,cout);
 
 	{a, b, cin} = 3'b001; #10;

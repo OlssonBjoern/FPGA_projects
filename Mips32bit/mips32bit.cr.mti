@@ -1,7 +1,4 @@
-C:/FPGA_projects/Mips32bit/singlebit_rca.v {1 {vlog -work work -stats=none C:/FPGA_projects/Mips32bit/singlebit_rca.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-
-} {} {}} C:/FPGA_projects/Mips32bit/singlebit_fulladder.v {1 {vlog -work work -stats=none C:/FPGA_projects/Mips32bit/singlebit_fulladder.v
+C:/FPGA_projects/Mips32bit/singlebit_fulladder.v {1 {vlog -work work -stats=none C:/FPGA_projects/Mips32bit/singlebit_fulladder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module singlebit_full_adder
 
@@ -22,8 +19,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	xor2
 
+} {} {}} C:/FPGA_projects/Mips32bit/rca_alu.v {1 {vlog -work work -stats=none C:/FPGA_projects/Mips32bit/rca_alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rca_alu
+
+Top level modules:
+	rca_alu
+
 } {} {}} C:/FPGA_projects/Mips32bit/tb_fulladder.v {1 {vlog -work work -stats=none C:/FPGA_projects/Mips32bit/tb_fulladder.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_fulladder
+
+Top level modules:
+	tb_fulladder
 
 } {} {}} C:/FPGA_projects/Mips32bit/and2.v {1 {vlog -work work -stats=none C:/FPGA_projects/Mips32bit/and2.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
