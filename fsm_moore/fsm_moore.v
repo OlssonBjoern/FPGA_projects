@@ -82,7 +82,7 @@ module fsm_moore (
 
     // Handle the LED counter
     always @(posedge div_clk or posedge rst) begin
-        if (rest == 1'b1) begin
+        if (rst == 1'b1) begin
             led <= 4'd0;
         end else begin
             if (state == STATE_COUNTING) begin
