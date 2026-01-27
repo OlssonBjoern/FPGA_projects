@@ -15,7 +15,8 @@ module fsm_moore (
     localparam STATE_DONE = 2'd2;
 
     // Max counts for clock divider and counter
-    localparam MAX_CLK_COUNT = 24'd1500000;
+    // input clock is 6 MHz
+    localparam MAX_CLK_COUNT = 24'd1500000; // Output after clock dividing should be 4 Hz or a period of 0.25 s
     localparam MAX_LED_COUNT = 4'hf;
 
     // Internal signals
